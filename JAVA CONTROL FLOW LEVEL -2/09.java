@@ -1,9 +1,17 @@
-number = int(input("Enter a number: "))
-greatestFactor = 1
+import java.util.Scanner;
 
-for i in range(number - 1, 0, -1):
-    if number % i == 0:
-        greatestFactor = i
-        break
+public class Program9 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int greatestFactor = 1;
+        for (int i = number - 1; i >= 1; i--) {
+            if (number % i == 0) {
+                greatestFactor = i;
+                break;
+            }
+        }
+        System.out.println("Greatest Factor: " + greatestFactor);
+    }
+}
 
-print(f"Greatest factor of {number} beside itself is {greatestFactor}")
