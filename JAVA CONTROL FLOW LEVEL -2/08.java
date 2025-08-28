@@ -1,10 +1,18 @@
-number = int(input("Enter a positive integer: "))
-if number <= 0:
-    print("Enter a positive integer.")
-else:
-    i = 1
-    print(f"Factors of {number} are:")
-    while i <= number:
-        if number % i == 0:
-            print(i)
-        i += 1
+
+import java.util.Scanner;
+
+public class Program8 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int i = 1;
+        if (number > 0) {
+            while (i < number) {
+                if (number % i == 0) {
+                    System.out.println(i);
+                }
+                i++;
+            }
+        }
+    }
+}
