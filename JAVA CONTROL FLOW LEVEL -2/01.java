@@ -1,9 +1,18 @@
-number = int(input("Enter a natural number: "))
-if number < 1:
-    print("Please enter a natural number (1 or more).")
-else:
-    for i in range(1, number + 1):
-        if i % 2 == 0:
-            print(f"{i} is even")
-        else:
-            print(f"{i} is odd")
+import java.util.Scanner;
+
+public class Program1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        if (number > 0) {
+            for (int i = 1; i <= number; i++) {
+                if (i % 2 == 0) {
+                    System.out.println(i + " is even");
+                } else {
+                    System.out.println(i + " is odd");
+                }
+            }
+        }
+    }
+}
+
