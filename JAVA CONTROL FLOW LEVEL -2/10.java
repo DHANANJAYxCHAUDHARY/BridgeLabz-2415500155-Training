@@ -1,11 +1,20 @@
-number = int(input("Enter a number: "))
-greatestFactor = 1
-counter = number - 1
+import java.util.Scanner;
 
-while counter > 0:
-    if number % counter == 0:
-        greatestFactor = counter
-        break
-    counter -= 1
+public class Program10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int counter = number - 1;
+        int greatestFactor = 1;
+        while (counter >= 1) {
+            if (number % counter == 0) {
+                greatestFactor = counter;
+                break;
+            }
+            counter--;
+        }
+        System.out.println("Greatest Factor: " + greatestFactor);
+    }
+}
 
-print(f"Greatest factor of {number} beside itself is {greatestFactor}")
+
