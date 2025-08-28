@@ -1,8 +1,16 @@
-salary = float(input("Enter salary: "))
-years_of_service = int(input("Enter years of service: "))
+import java.util.Scanner;
 
-if years_of_service > 5:
-    bonus = salary * 0.05
-else:
-    bonus = 0
-print(f"Bonus amount: {bonus}")
+public class Program2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double salary = sc.nextDouble();
+        int years = sc.nextInt();
+        if (years > 5) {
+            double bonus = salary * 0.05;
+            System.out.println("Bonus: " + bonus);
+        } else {
+            System.out.println("No bonus");
+        }
+    }
+}
+
