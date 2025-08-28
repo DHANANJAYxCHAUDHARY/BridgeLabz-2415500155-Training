@@ -1,13 +1,22 @@
-num = int(input("Enter a positive integer: "))
-if num <= 0:
-    print("Enter a positive integer.")
-else:
-    for i in range(1, num + 1):
-        if i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
-        elif i % 3 == 0:
-            print("Fizz")
-        elif i % 5 == 0:
-            print("Buzz")
-        else:
-            print(i)
+import java.util.Scanner;
+
+public class Program4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        if (number > 0) {
+            for (int i = 1; i <= number; i++) {
+                if (i % 3 == 0 && i % 5 == 0) {
+                    System.out.println("FizzBuzz");
+                } else if (i % 3 == 0) {
+                    System.out.println("Fizz");
+                } else if (i % 5 == 0) {
+                    System.out.println("Buzz");
+                } else {
+                    System.out.println(i);
+                }
+            }
+        }
+    }
+}
+
