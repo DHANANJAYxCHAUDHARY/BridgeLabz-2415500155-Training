@@ -30,7 +30,7 @@
 
 ---
 
-## 🧩 1. Programming Paradigms  
+## 🧩 1. Programming Paradigms  (AUGUST 11-13,2025)
 
 **Short Explanation:**  
 - **Procedural Programming:** Focuses on functions and logic flow.  
@@ -47,7 +47,7 @@ Learn to model real-world entities as objects using classes and methods.
 
 ---
 
-## 🧱 2. Java Basics  
+## 🧱 2. Java Basics  (AUGUST 18-19,2025)
 
 **Explanation:**  
 Learn about primitive data types (int, char, float, boolean), `var` keyword, and variable scopes (local, instance, static).  
@@ -63,7 +63,7 @@ Understand how objects store complex data types in memory.
 
 ---
 
-## 🧑‍💻 3. User Input  
+## 🧑‍💻 3. User Input  (AUGUST 20,2025)
 
 **Explanation:**  
 Java takes input using the `Scanner` class or command-line arguments.  
@@ -79,7 +79,7 @@ Build console applications that interact with users.
 
 ---
 
-## 🔄 4. Programming Constructs  
+## 🔄 4. Programming Constructs  (SEPTEMBER 25,2025)
 
 **Explanation:**  
 Covers sequence (normal flow), selection (`if`, `switch`), iteration (`for`, `while`), and transfer (`break`, `continue`).  
@@ -95,7 +95,7 @@ Apply loops in arrays, collections, and file processing.
 
 ---
 
-## 📊 5. Arrays  
+## 📊 5. Arrays  (SEPTEMBER 25-27,2025)
 
 **Explanation:**  
 Arrays store multiple values in one variable (1D, 2D).  
@@ -111,7 +111,7 @@ Learn about `ArrayList` and dynamic collections.
 
 ---
 
-## ✍️ 6. String Handling  
+## ✍️ 6. String Handling  (SEPTEMBER 1,2025)
 
 **Explanation:**  
 Strings in Java are immutable; you can manipulate them using `String`, `StringBuilder`, and `StringBuffer`.  
@@ -127,7 +127,7 @@ Work on file text parsing and input validation.
 
 ---
 
-## 🧠 7. Methods  
+## 🧠 7. Methods  (SEPTEMBER 8-10,2025)
 
 **Explanation:**  
 Methods perform specific tasks. Includes **overloading** (same name, different parameters) and **recursion** (method calling itself).  
@@ -143,7 +143,7 @@ Implement functions in real projects to reduce redundancy.
 
 ---
 
-## 🏗️ 8. Classes & Objects  
+## 🏗️ 8. Classes & Objects  (SEPTEMBER 15,2025)
 
 **Explanation:**  
 A class is a blueprint; an object is its instance.  
@@ -159,7 +159,7 @@ Combine multiple classes to build full systems.
 
 ---
 
-## 🔐 9. Encapsulation  
+## 🔐 9. Encapsulation  (SEPTEMBER 16,2025)
 
 **Explanation:**  
 Binding data using access modifiers and providing access via getters and setters.  
@@ -175,7 +175,7 @@ Implement secure class designs in applications.
 
 ---
 
-## 🧬 10. Inheritance  
+## 🧬 10. Inheritance  (SEPTEMBER 17,2025)
 
 **Explanation:**  
 Allows one class to inherit fields/methods of another.  
@@ -191,7 +191,7 @@ Implement class hierarchies for scalable code.
 
 ---
 
-## 🌀 11. Polymorphism  
+## 🌀 11. Polymorphism  (SEPTEMBER 22,2025)
 
 **Explanation:**  
 Same method behaves differently based on object type.  
@@ -207,7 +207,7 @@ Use polymorphism in frameworks and APIs.
 
 ---
 
-## 🧱 12. Abstraction  
+## 🧱 12. Abstraction  (SEPTEMBER 23,2025)
 
 **Explanation:**  
 Hiding internal details using abstract classes and methods.  
@@ -223,7 +223,7 @@ Use abstraction in architecture design (e.g., DAO pattern).
 
 ---
 
-## ⚙️ 13. Interfaces  
+## ⚙️ 13. Interfaces  (SEPTEMBER 24,2025)
 
 **Explanation:**  
 Interfaces define contracts; classes implement them.  
@@ -239,7 +239,7 @@ Understand how frameworks like JDBC use interfaces.
 
 ---
 
-## ⚡ 14. Lambda Expressions  
+## ⚡ 14. Lambda Expressions  (OCTOBER 13-14,2025)
 
 **Explanation:**  
 Provide a shorter way to write functions (used in Java 8+).  
@@ -255,7 +255,7 @@ Use with Streams and Collections.
 
 ---
 
-## 📦 15. Packages  
+## 📦 15. Packages  (OCTOBER 15-27,2025)
 
 **Explanation:**  
 Used to group related classes (like folders).  
@@ -271,7 +271,7 @@ Create modular Java projects.
 
 ---
 
-## 🧯 16. Exception Handling  
+## 🧯 16. Exception Handling  (OCTOBER 28-29,2025)
 
 **Explanation:**  
 Handle unexpected errors using `try`, `catch`, `finally`, `throw`, and `throws`.  
@@ -287,7 +287,7 @@ Develop error-handling frameworks for projects.
 
 ---
 
-## 🧩 17. Wrapper Classes  
+## 🧩 17. Wrapper Classes  (OCTOBER 28,2025)
 
 **Explanation:**  
 Convert primitives into objects (`int → Integer`) for use in collections.  
@@ -303,7 +303,7 @@ Use wrapper classes in data structures and generics.
 
 ---
 
-## 📚 18. Generics & Collections  
+## 📚 18. Generics & Collections  (OCTOBER 29,2025)
 
 **Explanation:**  
 Generics allow type safety. Collections manage groups of data (`List`, `Set`, `Map`).  
@@ -319,7 +319,7 @@ Use advanced structures like TreeMap or PriorityQueue.
 
 ---
 
-## 🗄️ 19. JDBC (Database Connectivity)  
+## 🗄️ 19. JDBC (Database Connectivity)  (NOVEMBER 3-5,2025)
 
 **Explanation:**  
 Connect Java with databases using JDBC.  
